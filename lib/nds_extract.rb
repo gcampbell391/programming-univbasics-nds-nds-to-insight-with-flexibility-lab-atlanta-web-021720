@@ -67,7 +67,7 @@ def movies_with_directors_set(source)
     movie = source[index]
     director_name = movie[:name]
     director_movie = movie[:movies]
-    result << movie_with_director_name(director_name, director_movie)
+    result << movies_with_director_key(director_name, director_movie)
     index += 1
   end 
   result 
