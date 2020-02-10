@@ -34,7 +34,7 @@ end
 # Your code after this point
 
 def movies_with_director_key(name, movies_collection)
-  
+  pp movies_collection
 
 
 def gross_per_studio(collection)
