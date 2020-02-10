@@ -34,8 +34,9 @@ end
 # Your code after this point
 
 def movies_with_director_key(name, movies_collection)
-  
+  result = []
   index = 0
+  
   
 end
 
