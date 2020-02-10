@@ -64,17 +64,11 @@ def movies_with_directors_set(source)
   result = []
   index = 0
   while index < source.length do
-    director_movies = 
-  # GOAL: For each director, find their :movies Array and stick it in a new Array
-  #
-  # INPUT:
-  # * source: An Array of Hashes containing director information including
-  # :name and :movies
-  #
-  # RETURN:
-  #
-  # Array of Arrays containing all of a director's movies. Each movie will need
-  # to have a :director_name key added to it.
+    director_movie = source[index]
+    dire
+    index += 1
+  end 
+  result 
 end
 
 # ----------------    End of Your Code Region --------------------
